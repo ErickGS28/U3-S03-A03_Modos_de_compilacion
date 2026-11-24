@@ -1,0 +1,30 @@
+﻿The Dart VM service is listening on http://127.0.0.1:54709/InkqbMGc_XA=/
+[INFO][Arranque] EcoTrack modos Â· ambiente=qa
+[DEBUG][SecretoDemo] token=demo-solo-debug-nunca-en-release
+[DEBUG][Consumo] usuario=alumno@utez.edu.mx litros=12.5
+[INFO][Consumo] Registro guardado localmente
+[ERROR][FalloControlado] Bad state: No se puede repartir 10.0 L entre 0 personas (divisiÃ³n invÃ¡lida).
+#0      Diagnostico.dividirLitros (package:ecotrack_modos/diagnostico.dart:8:7)
+#1      _PanelModosPageState._provocarFalloControlado (package:ecotrack_modos/main.dart:64:19)
+#2      _InkResponseState.handleTap (package:flutter/src/material/ink_well.dart:1224:21)
+#3      GestureRecognizer.invokeCallback (package:flutter/src/gestures/recognizer.dart:362:24)
+#4      TapGestureRecognizer.handleTapUp (package:flutter/src/gestures/tap.dart:758:11)
+#5      BaseTapGestureRecognizer._checkUp (package:flutter/src/gestures/tap.dart:383:5)
+#6      BaseTapGestureRecognizer.handlePrimaryPointer (package:flutter/src/gestures/tap.dart:314:7)
+#7      PrimaryPointerGestureRecognizer.handleEvent (package:flutter/src/gestures/recognizer.dart:738:9)
+#8      PointerRouter._dispatch (package:flutter/src/gestures/pointer_router.dart:97:12)
+#9      PointerRouter._dispatchEventToRoutes.<anonymous closure> (package:flutter/src/gestures/pointer_router.dart:140:9)
+#10     _LinkedHashMapMixin.forEach (dart:_compact_hash:721:13)
+#11     PointerRouter._dispatchEventToRoutes (package:flutter/src/gestures/pointer_router.dart:138:18)
+#12     PointerRouter.route (package:flutter/src/gestures/pointer_router.dart:128:7)
+#13     GestureBinding.handleEvent (package:flutter/src/gestures/binding.dart:538:19)
+#14     GestureBinding.dispatchEvent (package:flutter/src/gestures/binding.dart:508:22)
+#15     RendererBinding.dispatchEvent (package:flutter/src/rendering/binding.dart:473:11)
+#16     GestureBinding._handlePointerEventImmediately (package:flutter/src/gestures/binding.dart:447:7)
+#17     GestureBinding.handlePointerEvent (package:flutter/src/gestures/binding.dart:404:5)
+#18     GestureBinding._flushPointerEventQueue (package:flutter/src/gestures/binding.dart:351:7)
+#19     GestureBinding._handlePointerDataPacket (package:flutter/src/gestures/binding.dart:310:9)
+#20     _invoke1 (dart:ui/hooks.dart:457:13)
+#21     PlatformDispatcher._dispatchPointerDataPacket (dart:ui/platform_dispatcher.dart:473:7)
+#22     _dispatchPointerDataPacket (dart:ui/hooks.dart:374:31)
+

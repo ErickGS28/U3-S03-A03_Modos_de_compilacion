@@ -1,0 +1,3 @@
+﻿[INFO][Arranque] EcoTrack modos Â· ambiente=dev
+[INFO][Consumo] Registro guardado localmente
+[ERROR][FalloControlado] StateError
